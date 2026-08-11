@@ -22,6 +22,8 @@ CloudNine provides a simple interface where users can:
 
 The interface uses a **matte-black theme with subtle white neon accents**, keeping the design simple while giving the application a more polished appearance.
 
+<img width="917" height="463" alt="image" src="https://github.com/user-attachments/assets/f4dabb83-0141-412e-acc5-fee9f04da1ec" />
+
 ---
 
 ## 🛠️ Technologies Used
