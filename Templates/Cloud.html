@@ -4,4 +4,11 @@
     <input type="text" name="city" placeholder="Enter a city">
     <button type="submit">Get Weather</button>
 </form>
-<h2>In {{ city }}, it's currently {{ temperature }}°C 🌡️</h2>
+{% if error_message %}
+    <p>{{ error_message }}</p>
+
+{% elif temperature is not none %}
+    <h3>In {{ city }}, it's currently {{ temperature }}°C 🌡️</h3>
+{% else %}
+    <h3>Enter a location to get the current temperature🌎</h3>
+{% endif %}
