@@ -47,9 +47,9 @@ The interface uses a **matte-black theme with subtle white neon accents**, keepi
 
 ## 🔄 How CloudNine Works
 
-###When a user enters a city, several things happen between the browser and the final result.
- ####1. First the user enters a location, and fetches the data with the api in use.
- ####2. If the user doesn't enter anything, but submits, the page responds with proper error handling. This creates better user experience.
+### When a user enters a city, several things happen between the browser and the final result.</br>
+ #### 1. First the user enters a location, and fetches the data with the api in use.</br>
+ #### 2. If the user doesn't enter anything, but submits, the page responds with proper error handling. This creates better user experience.</br>
 ---
-##Note for my readers:
+## Note for my readers:</br>
 ### This web app was made to build foundational understanding of back-end systems, APIs, and requests for the writer of this code.
