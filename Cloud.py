@@ -55,7 +55,7 @@ def home():
     # the temperature on the left is from your html; the temperature on the right is from your python file.
         return render_template(
             "cloud.html",
-            message="Welcome to CloudNine!!",
+            message="Welcome to CloudNine🌥️!",
             city=city,
             temperature=temperature,
             error_message=error_message
