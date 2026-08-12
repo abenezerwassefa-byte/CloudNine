@@ -53,13 +53,13 @@ def home():
                 error_message = "Stop making up fake places bruh💢"
     # message is an argument
     # the temperature on the left is from your html; the temperature on the right is from your python file.
-        return render_template(
-            "cloud.html",
-            message="Welcome to CloudNine🌥️",
-            city=city,
-            temperature=temperature,
-            error_message=error_message
-        )
+    return render_template(
+        "cloud.html",
+        message="Welcome to CloudNine🌥️",
+        city=city,
+        temperature=temperature,
+        error_message=error_message
+    )
 
 
 @app.route("/about")
